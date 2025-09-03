@@ -6,10 +6,10 @@ interface ResumeSectionProps {
 
 const ResumeSection = ({ isDarkMode }: ResumeSectionProps) => {
   const skills = [
-    { category: 'Lorem', items: ['Lorem ipsum', 'Dolor sit', 'Amet consectetur', 'Adipiscing elit', 'Sed do'] },
-    { category: 'Ipsum', items: ['Tempor', 'Incididunt', 'Ut labore', 'Et dolore', 'Magna aliqua'] },
-    { category: 'Dolor', items: ['Ut enim', 'Ad minim', 'Veniam quis', 'Nostrud', 'Exercitation'] },
-    { category: 'Sit', items: ['Ullamco', 'Laboris nisi', 'Ut aliquip', 'Ex ea', 'Commodo consequat'] }
+    { category: 'Languages', items: ['Python', 'Java', 'PHP'] },
+    { category: 'Backend & Web', items: ['REST API', 'MySQL', 'Apache', 'Inventory Manager'] },
+    { category: 'Data & ML', items: ['Data Pipelines', 'NumPy', 'Pandas', 'Matplotlib', 'OpenCV', 'LLM APIs'] },
+    { category: 'Domain & Practices', items: ['Financial Trading', 'Architecture Diagrams', 'Research'] }
   ];
 
   const education = [
@@ -35,14 +35,14 @@ const ResumeSection = ({ isDarkMode }: ResumeSectionProps) => {
         </p>
         
         <a 
-          href="#" 
+          href={`${import.meta.env.BASE_URL}Resume.pdf`} 
           className={`button-primary flex items-center gap-2 reveal ${
             isDarkMode ? 'bg-teal-400 hover:bg-teal-500' : 'bg-teal-500 hover:bg-teal-600'
           }`}
-          download
+          download="Umar_Ghani_Resume.pdf"
         >
           <Download size={18} />
-          Download CV
+          Download Resume
         </a>
       </div>
       
@@ -95,14 +95,10 @@ const ResumeSection = ({ isDarkMode }: ResumeSectionProps) => {
               <h4 className="font-semibold text-lg mb-4">Relevant Coursework</h4>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                 {[
-                  'Lorem ipsum dolor',
-                  'Sit amet consectetur',
-                  'Adipiscing elit',
-                  'Sed do eiusmod',
-                  'Tempor incididunt',
-                  'Ut labore et',
-                  'Dolore magna',
-                  'Aliqua ut enim'
+                  'CS 61A',
+                  'Data 8',
+                  'Math 53',
+                  'Cog Sci 1'
                 ].map((course) => (
                   <div 
                     key={course}

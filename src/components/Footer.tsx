@@ -16,7 +16,7 @@ const Footer = ({ isDarkMode }: FooterProps) => {
                 Want to work together or have a question?
               </p>
               <a 
-                href="mailto:umar@example.com" 
+                href="mailto:umarghani@berkeley.edu" 
                 className="button-secondary inline-flex items-center"
               >
                 <Mail size={18} className="mr-2" />
@@ -54,17 +54,6 @@ const Footer = ({ isDarkMode }: FooterProps) => {
               aria-label="LinkedIn"
             >
               <Linkedin size={20} className="text-teal-400" />
-            </a>
-            <a 
-              href="https://twitter.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className={`p-3 rounded-full transition-all duration-300 transform hover:-translate-y-1 ${
-                isDarkMode ? 'hover:bg-slate-800' : 'hover:bg-slate-200'
-              }`}
-              aria-label="Twitter"
-            >
-              <Twitter size={20} className="text-teal-400" />
             </a>
           </div>
           

@@ -8,28 +8,20 @@ const ExperienceSection = ({ isDarkMode }: ExperienceSectionProps) => {
   const experiences = [
     {
       id: 1,
-      role: 'Lorem Ipsum',
-      company: 'Dolor Sit',
-      period: 'Jan 2022 - Dec 2022',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      skills: ['Lorem', 'Ipsum', 'Dolor']
+      role: 'Software Engineer Intern',
+      company: 'HyperPlanar',
+      period: 'June 2024 - Sep. 2024',
+      description: 'Integrated LLM APIs into trading workflows, enabling natural language-driven analysis. Researched techniques for fine-tuning and optimizing LLms for financial trading applications. Designed architecture diagrams to streamline communication and technical planning.',
+      skills: ['Python', 'LLM APIs', 'Financial Trading', 'Architecture Diagrams', 'Research']
     },
     {
       id: 2,
-      role: 'Amet Consectetur',
-      company: 'Adipiscing Elit',
-      period: 'Jan 2023 - May 2023',
-      description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      skills: ['Amet', 'Consectetur', 'Adipiscing']
+      role: 'Student Researcher',
+      company: 'USC Biomechanics Lab',
+      period: 'Summer 2023 & Summer 2024',
+      description: 'Built software tools to analyze biomechanical data from a force-measuring device and visualize results as vectors. Developed Python programs to preprocess and synchronize video with force data for motion analysis. Utilized OpenCV, NumPy, Pandas, and Matplotlib to process data, edit video, and display quantitative results.',
+      skills: ['Python', 'OpenCV', 'NumPy', 'Pandas', 'Matplotlib']
     },
-    {
-      id: 3,
-      role: 'Sed Do',
-      company: 'Eiusmod Tempor',
-      period: 'Aug 2023 - Dec 2023',
-      description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-      skills: ['Sed', 'Do', 'Eiusmod']
-    }
   ];
 
   return (
