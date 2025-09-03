@@ -45,7 +45,7 @@ const Footer = ({ isDarkMode }: FooterProps) => {
               <Github size={20} className="text-teal-400" />
             </a>
             <a 
-              href="https://www.linkedin.com/in/umar-ghani-3a882725b/" 
+              href="https://www.linkedin.com/in/umarghani1" 
               target="_blank" 
               rel="noopener noreferrer"
               className={`p-3 rounded-full transition-all duration-300 transform hover:-translate-y-1 ${
