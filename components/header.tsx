@@ -28,13 +28,6 @@ export function Header() {
               linkedin
             </Link>
             <Link
-              href="/api/resume"
-              target="_blank"
-              className="font-mono text-xs text-muted-foreground transition-colors hover:text-primary sm:text-sm"
-            >
-              resume
-            </Link>
-            <Link
               href="/contact"
               className="font-mono text-xs text-muted-foreground transition-colors hover:text-primary sm:text-sm"
             >
